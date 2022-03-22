@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 <ellipse cx="24" cy="22.5" rx="14" ry="12.5" fill="url(#paint0_radial_356_2422)"/>
 <path d="M42.7778 21H27.2222C23.7858 21 21 23.7858 21 27.2222V42.7778C21 46.2142 23.7858 49 27.2222 49H42.7778C46.2142 49 49 46.2142 49 42.7778V27.2222C49 23.7858 46.2142 21 42.7778 21Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
@@ -10,19 +9,6 @@
 <stop offset="1" stop-color="#FF3030" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="paint1_linear_356_2422" x1="15.75" y1="3.5" x2="68.25" y2="71.75" gradientUnits="userSpaceOnUse">
-=======
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="8" cy="7" r="6" fill="url(#paint0_radial_356_2422)"/>
-<path d="M12.2222 6H7.77778C6.79594 6 6 6.79594 6 7.77778V12.2222C6 13.2041 6.79594 14 7.77778 14H12.2222C13.2041 14 14 13.2041 14 12.2222V7.77778C14 6.79594 13.2041 6 12.2222 6Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8.6665 9.99997L9.6665 10.8889L11.3332 9.11108" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10 19.5C4.7533 19.5 0.5 15.2467 0.5 10H-0.5C-0.5 15.799 4.20101 20.5 10 20.5V19.5ZM19.5 10C19.5 15.2467 15.2467 19.5 10 19.5V20.5C15.799 20.5 20.5 15.799 20.5 10H19.5ZM10 0.5C15.2467 0.5 19.5 4.7533 19.5 10H20.5C20.5 4.20101 15.799 -0.5 10 -0.5V0.5ZM10 -0.5C4.20101 -0.5 -0.5 4.20101 -0.5 10H0.5C0.5 4.7533 4.7533 0.5 10 0.5V-0.5Z" fill="url(#paint1_linear_356_2422)"/>
-<defs>
-<radialGradient id="paint0_radial_356_2422" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8 7) rotate(90) scale(6)">
-<stop stop-color="#FF1E1E"/>
-<stop offset="1" stop-color="#FF3030" stop-opacity="0"/>
-</radialGradient>
-<linearGradient id="paint1_linear_356_2422" x1="4.5" y1="1" x2="19.5" y2="20.5" gradientUnits="userSpaceOnUse">
->>>>>>> dev_project
 <stop stop-color="#FF1E1E"/>
 <stop offset="0.10625" stop-color="#A8A8A8" stop-opacity="0.2"/>
 <stop offset="1" stop-color="#A8A8A8" stop-opacity="0.2"/>
