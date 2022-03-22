@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 <ellipse cx="24" cy="22.5" rx="14" ry="12.5" fill="url(#paint0_radial_356_2437)"/>
 <path d="M48.6325 26.625L40.0575 17.875C39.8125 17.625 39.5675 17.5 39.2 17.5H26.95C25.6025 17.5 24.5 18.625 24.5 20V50C24.5 51.375 25.6025 52.5 26.95 52.5H46.55C47.8975 52.5 49 51.375 49 50V27.5C49 27.125 48.8775 26.875 48.6325 26.625ZM39.2 20.5L46.06 27.5H39.2V20.5ZM46.55 50H26.95V20H36.75V27.5C36.75 28.875 37.8525 30 39.2 30H46.55V50Z" fill="white"/>
@@ -9,6 +10,19 @@
 <stop offset="1" stop-color="#FF3030" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="paint1_linear_356_2437" x1="15.75" y1="3.5" x2="68.25" y2="71.75" gradientUnits="userSpaceOnUse">
+=======
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="8" cy="7" r="6" fill="url(#paint0_radial_356_2437)"/>
+<path d="M13.895 7.60714L11.445 5.10714C11.375 5.03571 11.305 5 11.2 5H7.7C7.315 5 7 5.32143 7 5.71429V14.2857C7 14.6786 7.315 15 7.7 15H13.3C13.685 15 14 14.6786 14 14.2857V7.85714C14 7.75 13.965 7.67857 13.895 7.60714ZM11.2 5.85714L13.16 7.85714H11.2V5.85714ZM13.3 14.2857H7.7V5.71429H10.5V7.85714C10.5 8.25 10.815 8.57143 11.2 8.57143H13.3V14.2857Z" fill="white"/>
+<path d="M9 11.25H12V12H9V11.25ZM9 9H12V9.75H9V9Z" fill="white"/>
+<path d="M10 19.5C4.7533 19.5 0.5 15.2467 0.5 10H-0.5C-0.5 15.799 4.20101 20.5 10 20.5V19.5ZM19.5 10C19.5 15.2467 15.2467 19.5 10 19.5V20.5C15.799 20.5 20.5 15.799 20.5 10H19.5ZM10 0.5C15.2467 0.5 19.5 4.7533 19.5 10H20.5C20.5 4.20101 15.799 -0.5 10 -0.5V0.5ZM10 -0.5C4.20101 -0.5 -0.5 4.20101 -0.5 10H0.5C0.5 4.7533 4.7533 0.5 10 0.5V-0.5Z" fill="url(#paint1_linear_356_2437)"/>
+<defs>
+<radialGradient id="paint0_radial_356_2437" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8 7) rotate(90) scale(6)">
+<stop stop-color="#FF1E1E"/>
+<stop offset="1" stop-color="#FF3030" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint1_linear_356_2437" x1="4.5" y1="1" x2="19.5" y2="20.5" gradientUnits="userSpaceOnUse">
+>>>>>>> dev_project
 <stop stop-color="#FF1E1E"/>
 <stop offset="0.10625" stop-color="#A8A8A8" stop-opacity="0.2"/>
 <stop offset="1" stop-color="#A8A8A8" stop-opacity="0.2"/>

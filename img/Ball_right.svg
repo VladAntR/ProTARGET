@@ -2,6 +2,7 @@
 <g filter="url(#filter0_f_87_5)">
 <circle cx="54" cy="54" r="50" fill="#FEA19A"/>
 <path d="M90.5 61.5C90.5 81.3823 68.5538 104 49.5 104C30.4462 104 5.5 81.3823 5.5 61.5C5.5 41.6177 30.4462 20.5 49.5 20.5C68.5538 20.5 90.5 41.6177 90.5 61.5Z" fill="#FFB4AF"/>
+<<<<<<< HEAD
 <circle cx="34" cy="44" r="5" fill="#E6807C"/>
 <circle cx="53" cy="44" r="5" fill="#E6807C"/>
 <circle cx="64" cy="61" r="5" fill="#E6807C"/>
@@ -9,6 +10,9 @@
 <circle cx="35" cy="81" r="5" fill="#E6807C"/>
 <circle cx="23" cy="61" r="5" fill="#E6807C"/>
 <path d="M53 47H35L26 62.4839L35.5 79H53L62 62.4839L53 47Z" stroke="#E6807C" stroke-width="5"/>
+=======
+<path d="M44 43.618L49.1373 59.4291L49.2496 59.7746H49.6129H66.2376L52.7879 69.5463L52.494 69.7599L52.6063 70.1054L57.7436 85.9164L44.2939 76.1446L44 75.9311L43.7061 76.1446L30.2564 85.9164L35.3937 70.1054L35.506 69.7599L35.2121 69.5463L21.7624 59.7746H38.3871H38.7504L38.8627 59.4291L44 43.618Z" stroke="#393939"/>
+>>>>>>> dev_project
 </g>
 <defs>
 <filter id="filter0_f_87_5" x="0" y="0" width="108" height="108" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
