@@ -5,9 +5,12 @@
                 <div class="card-body">
                     <h5 class="card-title mb-3">@@title</h5>
                     <p class="card-text mb-3"><small class="text-muted">@@text</small></p>
-                    <div class="card_btn_price">
+                    <!-- <div class="card_btn_price">
                         <a href="#" class="card_btn">Подробнее <img src="img/Arrow_next.svg" alt="arrow next "></a>
-                    </div>
+                    </div> -->
+                    @@include('../modalWindow/_modals_services.html',{
+                        id:'@@name__id'
+                    })
                 </div>
             </div>
             <div class="col-xl-4 align-self-center">

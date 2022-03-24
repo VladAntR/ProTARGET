@@ -1,3 +1,192 @@
+<header class="header">
+    <div class="container">
+        <!--NAVIGATION-->
+        <div class="row">
+            <!-- Content Left -->
+            <div class="col-4 col-sm-4 col-xxl-4">
+                <ul class="nav">
+                    <!--Menu Burger Modal Window-->
+                    @@include('html/modalWindow/_burger.html',{})
+                    <!--End Navigation-->
+                    <li class="nav-item d-none d-sm-block">
+                        <a style="color:red" class="nav-link" href="#">LOGO</a>
+                    </li>
+                    <li class="nav-item dropdown btn_languages">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">RU</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">UK</a></li>
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- Socials Icons Menu -->
+            <div class="col-sm-4 col-xxl-4 d-none d-sm-block">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="@img/instagram.svg" alt="icon instagram"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="@img/Group.svg" alt="icon group"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="@img/jam_telegram.svg" alt="icon telegram"></a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="@img/whh_viber.svg" alt="icon viber"></a></li>
+                </ul>
+            </div>
+            <!--End Socials Icons Menu  -->
+
+            <!-- Content Right -->
+            <div class="col-8 col-sm-4 col-xxl-4">
+                <ul class="row nav">
+                    <li class="nav-item text-end">
+                        <img src="@img/phone_call.svg" alt="icon call">
+                        <span class="number__phone">+38 (063) 241-45-67</span>
+                    </li>
+                    <!-- Modal Window Get Subscribe-->
+                    @@include('html/modalWindow/_getSubscribe.html',{
+                        name_class:'text-end',
+                        name_btn:'Get subscribe'
+                    })
+                    <!-- End Modal Window Get Subscribe -->
+                </ul>
+            </div>
+        </div>
+        <!-- First Screen -->
+        <div class="row justify-content-center mt-3">
+            <div class="col-sm-2 col-xxl-1 align-self-end position-relative d-none d-sm-block">
+                <a href="#" class="scroll__down">
+                    <img src="@img/icon scroll.svg" alt="Animation text" class="animation_text">
+                    <img src="@img/icon__arrow_down.svg" alt="arrow donw" class="arrow_down">
+                </a>
+            </div>
+
+            <div class="col-12 col-sm-10 col-xxl-8">
+                <div class="display-3 slogan_wrapper">
+                    <div>
+                        <span class="text-uppercase slogan">Увеличить<br> Доход Бизнеса<br> с Агентством<br> </span>
+                        <img src="img/Switch.svg" alt="button">
+                        <span class="text-uppercase slogan">protarget</span>
+                    </div>
+                </div>
+                <p class="text-end">
+                    &#8212&#8212&#8212 создаем, консультируем, развиваем, монетизируем orpgin прод &#921
+                </p>
+                <div class="buttons">
+                    <a href="#" class="button button_active">Презентация Агентства</a>
+                    <!-- Modal Window Leave a request -->
+                    @@include('html/modalWindow/_leaveRequest.html',{
+                        text_btn:'Оставить заявку',
+                        name_class:'button'
+                    })
+                    <!-- End Modal Window Leave a request -->
+                </div>
+            </div>
+
+            <div class="col-12 col-xxl-3">
+                <div class="benefits">
+                    <div class="benefit">
+                        <img src="img/icon__benefit.svg" alt="photo"><br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, impedit.</p>
+                    </div>
+
+                    <div class="benefit">
+                        <img src="img/icon__benefit.svg" alt="photo"><br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, impedit.</p>
+                    </div>
+
+                    <div class="benefit">
+                        <img src="img/icon__benefit.svg" alt="photo"><br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, impedit.</p>
+                    </div>
+
+                    <div class="benefit">
+                        <img src="img/icon__benefit.svg" alt="photo"><br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, impedit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End First Screen-->
+    </div>
+    <!-- Ribbon Run -->
+    @@include('html/_ribbonRun.html')
+    <!--End Ribbon Run -->
+</header>
+
+<!-- Slider -->
+<article class="container pt-5">
+    <!-- Header -->
+    @@include('html/components/_headerBlock.html',{
+    title:'Наша <span>Команда</span>',
+    text_span:'Numbers speaks about our <br>profesionales',
+    text:'more 20 active projects more 60% people to glad work with us'
+    })
+
+    <section class="wrapper">
+        <div class="image-slider swiper">
+            <!-- Slides -->
+            <div class="image-slider__wrapper swiper-wrapper">
+                <div class="image-slider__slide swiper-slide">
+                    @@include('html/components/_card_slider.html',{
+                    img_card:'@img/img__card_alina.svg',
+                    alt_img:'Photo of a person from the team',
+                    link_instagram:'#',
+                    name_person:'Alina',
+                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ratione'
+                    })
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    @@include('html/components/_card_slider.html',{
+                    img_card:'@img/img__card_angriy.svg',
+                    alt_img:'Photo of a person from the team',
+                    link_instagram:'#',
+                    name_person:'Andrey',
+                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ratione'
+                    })
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    @@include('html/components/_card_slider.html',{
+                    img_card:'@img/img__card_nastia.svg',
+                    alt_img:'Photo of a person from the team',
+                    link_instagram:'#',
+                    name_person:'Nastia',
+                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ratione'
+                    })
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    @@include('html/components/_card_slider.html',{
+                    img_card:'@img/img__card_olga.svg',
+                    alt_img:'Photo of a person from the team',
+                    link_instagram:'#',
+                    name_person:'Olga',
+                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ratione'
+                    })
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    @@include('html/components/_card_slider.html',{
+                    img_card:'@img/img__card_pavlo.svg',
+                    alt_img:'Photo of a person from the team',
+                    link_instagram:'#',
+                    name_person:'Pavlo',
+                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ratione'
+                    })
+                </div>
+                <div class="image-slider__slide swiper-slide">
+                    @@include('html/components/_card_slider.html',{
+                    img_card:'@img/img__card_sergiy.svg',
+                    alt_img:'Photo of a person from the team',
+                    link_instagram:'#',
+                    name_person:'Sergiy',
+                    description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ratione'
+                    })
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+</article>
+<!-- End Slider -->
+
+
 <!-- Our Values -->
 <article class="container-lg article_values">   
     <!-- header -->
@@ -81,7 +270,7 @@
 
 
 <!-- Our Services -->
-<article class="container-lg pb-lg-1">
+<article class="container-lg pb-1 mb-1">
     <!-- header -->
     @@include('html/components/_headerBlock.html',{
         title:'Наши<span> Услуги</span>',
@@ -153,16 +342,15 @@
 @@include('html/_ribbonRun.html');
 <!-- End Our Services -->
 
-
 <!-- Ten Reasons to work with us -->
 <article class="container-md">
     <div class="row justify-content-between">
-        <div class="col-sm-12 col-xxl-6 position-relative ">
-            <img src="img/Person_img.png" alt="Photo woman" class="img_person d-md-none d-lg-block">
-            <span class="reasons_gradient_1 d-md-none d-lg-block">First Gradient</span>
-            <span class="reasons_gradient_2 d-md-none d-lg-block">Second Gradient</span>
-            <span class="reasons_gradient_3 d-md-none d-lg-block">Third Gradient</span>
-            <div class="reasons_text_wrapper d-md-none d-lg-block">
+        <div class="col-sm-12 col-xxl-6 position-relative">
+            <img src="img/Person_img.png" alt="Photo woman" class="img_person d-none d-lg-block">
+            <span class="reasons_gradient_1 d-none d-lg-block">First Gradient</span>
+            <span class="reasons_gradient_2 d-none d-lg-block">Second Gradient</span>
+            <span class="reasons_gradient_3 d-none d-lg-block">Third Gradient</span>
+            <div class="reasons_text_wrapper d-none d-lg-block">
                 <img src="img/Circle_without_gradient.svg" alt="symbol point">
                 <div class="reasons_text">
                     <span>Я основательница агентства ,</span> отвечаю за работу своей команды и гарантирую выполнение нашей работы.
@@ -287,7 +475,6 @@
 
                 </div>    
 
-                </div>
                 <button id="btn_more">Все преимущества </button>
             </div>
         </div>
@@ -390,8 +577,6 @@
                     </div>
                 </div>
                 
-
-
                 <div class="col-md-6 col-xl-4 cooperation__item" id="cooperationItem" data-index="6">
                     <div class="body__title position-relative"> <span>007 <img class="body__img_point" src="img/Circle_without_gradient.svg" alt="img point gradient"></span> Выполнение роботи</div>
                     <div class="body__info">
@@ -438,7 +623,7 @@
 
 
 <!-- Result our workd -->
-<article class="container-md">
+<article class="container-md mb-0 pb-0">
     <!-- header -->
     @@include('html/components/_headerBlock.html',{
         title:'<span>Результаты нашей<br></span>роботы',
@@ -483,10 +668,10 @@
                 link:'#',
                 name:'Мобильные приложения'
             })
-          </ul>
+        </ul>
     </div>
 
-    <section class="row pt-5 pb-5 justify-content-center">
+    <section class="row justify-content-center">
         <!-- first row -->
         @@include('html/components/_cardOurWork.html',{
             img_path:'img/interior.svg',
@@ -579,12 +764,12 @@
 
 
 <!-- Questions -->
-<article class="container-md position-relative">
+<article class="container-md position-relative question_wrapper">
     <div class="row">
-        <div class="col-xxl-7">
+        <div class="col-md-9 col-xxl-7">
             <div class="question__title"><span>возникли вопросы?<br> </span>не можете определиться с выбором услуг?</div>
             <div class="question__subtitle">
-                <img class="subtitle__img d-md-none d-lg-block" src="img/Circle.svg" alt="Gradient img">
+                <img class="subtitle__img d-none d-lg-block" src="img/Circle.svg" alt="Gradient img">
                 <div class="subtitle__text">Заполните форму для получения бесплатной<span> консультации от наших специалистов</span></div> 
             </div> 
             <div class="row question__buttons">
@@ -606,7 +791,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xxl-4">
+        <div class="col-md-3 col-xxl-4 align-self-center ">
             <div class="question_images">
                 <img src="img/question__mark.svg" alt="icon question mark" class="question__mark">
             </div>
@@ -617,7 +802,7 @@
 
 
 <!-- Feedback -->
-<article class="container-md position-relative p-0">
+<article class="container-md position-relative p-0 overflow-hidden">
     <div class="row">
         <div class="col-xxl-4 align-self-center">
             <div class="feedback__head">
@@ -629,24 +814,28 @@
                 </div>
             </div>
             <div class="feedback__body">
-                <div class="body__email">
-                    <img src="img/email.svg" alt=""><span>direct@protarget.agence</span>
+                <div>
+                    <div class="body__email">
+                        <img src="img/email.svg" alt=""><span>direct@protarget.agence</span>
+                    </div>
+                    <div class="body__call">
+                        <img src="img/phone_call.svg" alt=""><span>+38(063) 241-45-67</span>
+                    </div>
+                    <div class="body__workSchedule">Monday-Friday <br><span>10.00-18.00</span></div>
                 </div>
-                <div class="body__call">
-                    <img src="img/phone_call.svg" alt=""><span>+38(063) 241-45-67</span>
-                </div>
-                <div class="body__workSchedule">Monday-Friday <br><span>10.00-18.00</span></div>
             </div>
             <div class="feedback__footer">
-                <a href="#"><img src="img/instagram_active.svg" alt="icon instagram"></a>
-                <a href="#"><img src="img/internet_active.svg" alt="icon internet"></a>
-                <a href="#"><img src="img/viber_active.svg" alt="icon viber"></a>
-                <a href="#"><img src="img/telegram_active.svg" alt="icon telegram"></a>
+                <div>
+                    <a href="#"><img src="img/instagram_active.svg" alt="icon instagram"></a>
+                    <a href="#"><img src="img/internet_active.svg" alt="icon internet"></a>
+                    <a href="#"><img src="img/viber_active.svg" alt="icon viber"></a>
+                    <a href="#"><img src="img/telegram_active.svg" alt="icon telegram"></a>
+                </div>
             </div>
         </div>
         <div class="col-xxl-8">
             <div class="row justify-content-center">
-                <div class="col-xxl-6 align-self-center"><img src="img/Person_img.png" alt="image Woman"></div>
+                <div class="col-xxl-6 align-self-center d-none d-md-block"><img src="img/Person_img.png" alt="image Woman"></div>
                 <!-- title -->
                 <div class="col-xxl-6">
                     <div class="feedback__form">
@@ -700,13 +889,13 @@
                                         <div class="col-md-12 messenger__title">В каком мессенджере
                                             удобнее разговаривать?
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col col-md-4">
                                             <img src="img/icon__viber_white.svg" alt="icon viber" class="messenger__icon active" id="messenger__btn">
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col col-md-4">
                                             <img src="img/telegram_active.svg" alt="icon telegram" class="messenger__icon" id="messenger__btn">
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col col-md-4">
                                             <img src="img/icon__what's_app.svg" alt="icon what's app" class="messenger__icon" id="messenger__btn">
                                         </div>
                                     </div>
