@@ -64,7 +64,71 @@
     }
 }
 
+// Mobail app
+.benefit{
+    &__title{
+        color: $white;
+        font-size: 20px;
+        font-weight: 600;
+    }
 
+    &__text{
+        color: rgba($gray-600, .6);
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+//Corporat website
+.website__info{
+    position:relative;
+    margin-bottom: 5%;
+
+    .info__title h1{
+        line-height: 60px;
+        font-size: 27px;
+        color:$white;
+        padding-left: 15%;
+    }
+
+    .info__title img{
+        position: absolute;
+        top: -15px;
+        left: 0;
+    }
+
+    .info__text{
+        margin: 0;
+        padding-left: 15%;
+        color: rgba($gray-600, .8);
+    }
+}
+//Chat bot
+.chatBots__info{
+    margin-bottom: 3%;
+
+    .chatBots__title{
+        display:flex;
+    
+        h1{
+            color:rgba($white, .8);
+            padding-left: 5%;
+            font-size: 20px;
+        }
+    
+        .chatBots__number{
+            font-weight: 600;
+            font-size: 17px;
+            color:rgba($gray-100, .3);
+        }
+    }
+    
+    .chatBots__text{
+        color: rgba($gray-600, .4);
+        padding-left: 13%;
+    }
+
+}
 
 
 

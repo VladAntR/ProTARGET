@@ -284,6 +284,59 @@ section {
   margin-right: 5%;
 }
 
+.benefit__title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.benefit__text {
+  color: rgba(108, 117, 125, 0.6);
+  font-size: 14px;
+  text-align: justify;
+}
+
+.website__info {
+  position: relative;
+  margin-bottom: 5%;
+}
+.website__info .info__title h1 {
+  line-height: 60px;
+  font-size: 27px;
+  color: #fff;
+  padding-left: 15%;
+}
+.website__info .info__title img {
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
+.website__info .info__text {
+  margin: 0;
+  padding-left: 15%;
+  color: rgba(108, 117, 125, 0.8);
+}
+
+.chatBots__info {
+  margin-bottom: 3%;
+}
+.chatBots__info .chatBots__title {
+  display: flex;
+}
+.chatBots__info .chatBots__title h1 {
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 5%;
+  font-size: 20px;
+}
+.chatBots__info .chatBots__title .chatBots__number {
+  font-weight: 600;
+  font-size: 17px;
+  color: rgba(248, 249, 250, 0.3);
+}
+.chatBots__info .chatBots__text {
+  color: rgba(108, 117, 125, 0.4);
+  padding-left: 13%;
+}
+
 /*****End Settings contecst advertisign*****/
 /************************************************
                     Navigation
