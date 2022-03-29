@@ -130,6 +130,61 @@
 
 }
 
+//Target Advertising
+
+.target__body{
+    width: 100%;
+    padding: 2%;
+
+    .main__benefit{
+       display: flex;
+       align-items: center;
+       margin-bottom: 5%;
+
+       img{
+           margin-right: 3%;
+       }
+
+       p{
+           margin: 0;
+           
+       }
+    }
+
+    .target__hint{
+        position: relative;
+        padding-top: 9.5%;
+
+        .hint__title{
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-transform: uppercase;
+            color: rgba($gray-400, .3);
+            z-index: -1;
+            font-size: 2.7em;
+            width: 100%;
+            letter-spacing: 6px;
+            font-weight: 700;
+        }
+
+        .hint{
+            padding: 3%;
+            background-color: $red;
+            border-radius:20px;
+        }
+    }
+}
+@media (max-width:$md){
+    .target__body .target__hint .hint__title{
+        font-size:2em;
+    }
+}
+@media (max-width:$sm){
+    .target__body .target__hint .hint__title{
+        font-size:1em;
+    }
+}
 
 
 

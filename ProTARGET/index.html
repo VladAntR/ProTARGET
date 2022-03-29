@@ -780,7 +780,7 @@
                     </div>
                 </div>
                 
-                <div class="row modal-body row-cols-2">
+                <div class="row modal-body row-cols-xxl-2">
                     <div class="website__info">
                         <div class="info__title">
                             <img src="img/Circle_without_gradient.svg" alt="icon">
@@ -871,7 +871,7 @@
                     </div>
                 </div>
                 
-                <div class="row modal-body row-cols-3">
+                <div class="row modal-body row-cols-lg-3">
                     <div class="chatBots__info">
                         <div class="chatBots__title">
                             <span class="chatBots__number">001</span>
@@ -974,7 +974,83 @@
                 <div class="card-body">
                     <h5 class="card-title mb-3">Таргетированная реклама Facebook/Instagram</h5>
                     <p class="card-text mb-3"><small class="text-muted">Це ширша картка з допоміжним текстом нижче, як природний підхід до додаткового вмісту. Цей вміст трохи довший. </small></p>
-                    @@include(@@modal__path);
+                    <li class="nav-item">
+    <button type="button" class="card_btn" data-bs-toggle="modal" data-bs-target="#tagedAdvertising">
+        Подробнее <img src="img/Arrow_next.svg" alt="arrow next ">
+    </button>
+
+    <div class="modal fade" id="tagedAdvertising" tabindex="-1" aria-labelledby="modalWindowLeaveRequest" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content modal__body d-flex position-relative">
+                
+                <div class="modal__header">
+                    <div class="header__term"><span>Term:</span>1 month</div>
+                    <h5 class="modal-title">Targed advertising</h5>
+                    <div class="header__price">
+                        <div class="price">from 300$</div>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+                
+                <div class="row target__body">
+                    <div class="col-12 col-xxl-6">
+                        <p class="target__benefit">&#8212; Analysis pages in social network / websites.</p>
+                        <p class="target__benefit">&#8212; Analysus competitors.</p>
+                        <p class="target__benefit">&#8212; Portrait of the target audience.</p>
+                        <p class="target__benefit">&#8212; Decomposition.</p>
+                        <p class="target__benefit">&#8212; Develop advertising strategy.</p>
+                        <p class="target__benefit">&#8212; Develop advertising banner.</p>
+                        <p class="target__benefit">&#8212; Writing advertising copyright.</p>
+                        <p class="target__benefit">&#8212; Download Pixel, events on the website.</p>
+                        <p class="target__benefit">&#8212; Creating users audience.</p>
+                        <p class="target__benefit">&#8212; Analysus every day.</p>
+                        <p class="target__benefit">&#8212; Optimization advertising company, scaling.</p>
+                    </div>
+                    <div class="col-12 col-xxl-6">
+                        <p class="target__benefit">&#8212; Retarget.</p>
+                        <p class="target__benefit">&#8212; Report.</p>
+                        <div class="main__benefit">
+                            <img src="img/icon__step.svg" alt="icon step by step instructions">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quia!</p>
+                        </div>
+                        <div class="main__benefit">
+                            <img src="img/icon__document.svg" alt="icon document">
+                            <p>Velit accusamus fuga excepturi eveniet maiores ipsa quae perferendis iusto.</p>
+                        </div>
+                        <div class="target__hint">
+                            <div class="hint__title">Cosial network</div>
+                            <div class="hint">
+                                <p class="hint__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae blanditiis dolorum provident asperiores veritatis nostrum, consequatur magnam iure minus ex, et odio voluptates! Commodi provident repudiandae laborum, dicta placeat possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ut? </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="row modal__footer">
+                    <div class="col-12 col-xxl-4">
+                        <input type="text" class="form-control col-xxl-4" id="field__name" value="Имя" required>
+                    </div>
+        
+                    <div class="col-12 col-xxl-4">
+                        <input type="text" class="form-control col-xxl-4" id="field__name" value="+38 (0--) ---.--.--" required>
+                    </div>
+                        
+                    <div class="col-12 col-xxl-4">
+                        <button class="btn w-100">Get Advice</button> 
+                    </div>
+
+                    <div class="col-12 form-check justify-content-center">
+                        <input class="form-check-input" type="checkbox" value="true" id="flexCheckDefault" checked>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Вы готовы на условия обработки персональных данных
+                        </label>
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </div>
+</li>    ;
                 </div>
             </div>
             <div class="col-xl-4 align-self-center">

@@ -337,6 +337,53 @@ section {
   padding-left: 13%;
 }
 
+.target__body {
+  width: 100%;
+  padding: 2%;
+}
+.target__body .main__benefit {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.target__body .main__benefit img {
+  margin-right: 3%;
+}
+.target__body .main__benefit p {
+  margin: 0;
+}
+.target__body .target__hint {
+  position: relative;
+  padding-top: 9.5%;
+}
+.target__body .target__hint .hint__title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  color: rgba(206, 212, 218, 0.3);
+  z-index: -1;
+  font-size: 2.7em;
+  width: 100%;
+  letter-spacing: 6px;
+  font-weight: 700;
+}
+.target__body .target__hint .hint {
+  padding: 3%;
+  background-color: #CC0C01;
+  border-radius: 20px;
+}
+
+@media (max-width: 811px) {
+  .target__body .target__hint .hint__title {
+    font-size: 2em;
+  }
+}
+@media (max-width: 376px) {
+  .target__body .target__hint .hint__title {
+    font-size: 1em;
+  }
+}
 /*****End Settings contecst advertisign*****/
 /************************************************
                     Navigation
