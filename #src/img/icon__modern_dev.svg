@@ -1,0 +1,17 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="24" cy="22.5" rx="14" ry="12.5" fill="url(#paint0_radial_356_2462)"/>
+<path d="M26.25 21.6364H43.75V25.4545H47.25V17.8182C47.25 15.7182 45.675 14.0191 43.75 14.0191L26.25 14C24.325 14 22.75 15.7182 22.75 17.8182V25.4545H26.25V21.6364ZM40.9675 43.7627L49 35L40.9675 26.2373L38.5 28.9482L44.0475 35L38.5 41.0518L40.9675 43.7627ZM31.5 41.0518L25.9525 35L31.5 28.9482L29.0325 26.2373L21 35L29.0325 43.7627L31.5 41.0518ZM43.75 48.3636H26.25V44.5455H22.75V52.1818C22.75 54.2818 24.325 56 26.25 56H43.75C45.675 56 47.25 54.2818 47.25 52.1818V44.5455H43.75V48.3636Z" fill="white"/>
+<line x1="35.1443" y1="24.5836" x2="31.9929" y2="43.1663" stroke="white"/>
+<path d="M35 69.5C15.9462 69.5 0.5 54.0538 0.5 35H-0.5C-0.5 54.6061 15.3939 70.5 35 70.5V69.5ZM69.5 35C69.5 54.0538 54.0538 69.5 35 69.5V70.5C54.6061 70.5 70.5 54.6061 70.5 35H69.5ZM35 0.5C54.0538 0.5 69.5 15.9462 69.5 35H70.5C70.5 15.3939 54.6061 -0.5 35 -0.5V0.5ZM35 -0.5C15.3939 -0.5 -0.5 15.3939 -0.5 35H0.5C0.5 15.9462 15.9462 0.5 35 0.5V-0.5Z" fill="url(#paint1_linear_356_2462)"/>
+<defs>
+<radialGradient id="paint0_radial_356_2462" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(24 22.5) rotate(90) scale(12.5 14)">
+<stop stop-color="#FF1E1E"/>
+<stop offset="1" stop-color="#FF3030" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint1_linear_356_2462" x1="15.75" y1="3.5" x2="68.25" y2="71.75" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF1E1E"/>
+<stop offset="0.10625" stop-color="#A8A8A8" stop-opacity="0.2"/>
+<stop offset="1" stop-color="#A8A8A8" stop-opacity="0.2"/>
+</linearGradient>
+</defs>
+</svg>
